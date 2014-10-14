@@ -1,0 +1,3 @@
+#!/bin/bash
+
+berks update && rm -rf berks-cookbooks && berks vendor

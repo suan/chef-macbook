@@ -1,0 +1,31 @@
+{
+  "name": "macapps",
+  "description": "Installs and configures various applications on Mac OS X",
+  "long_description": "Macintosh Apps Cookbook\n=======================\n\nInstalls applications frequently seen on Mac OS X workstations.\n\nAs individual recipes evolve, they will be spun off into their\nown cookbooks, but it seemed senseless to create 50 different cookbooks\nup front.\n\nRequirements\n------------\n\n* Mac OS X\n\n#### Cookbooks\n\n- `dmg`\n\nAttributes\n----------\n\nToo many to list, but usually there's a URL and checksum for each\npiece of software.\n\nUsage\n-----\n\nInclude the recipe corresponding to the application you want to install\nin your run_list.\n\nContributing\n------------\n\n1. Fork the repository on Github\n2. Create a named feature branch (like `add_component_x`)\n3. Write your change\n4. Submit a Pull Request using Github\n\nLicense and Authors\n-------------------\n\n* Author: Julian C. Dunn (<jdunn@getchef.com>)\n\n```text\nCopyright:: 2013-2014 Chef Software, Inc.\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may\nnot use this file except in compliance with the License. You may obtain\na copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n```\n",
+  "maintainer": "Julian C. Dunn",
+  "maintainer_email": "jdunn@getchef.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "mac_os_x": ">= 0.0.0"
+  },
+  "dependencies": {
+    "dmg": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "1.0.2"
+}

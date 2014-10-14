@@ -1,0 +1,15 @@
+DEPENDENCIES
+  chrome
+    path: .
+    metadata: true
+  chrome_test
+    path: test/fixtures/cookbooks/chrome_test
+
+GRAPH
+  chef_handler (1.1.44)
+  chrome (0.2.0)
+    windows (~> 1.0)
+  chrome_test (0.1.0)
+    chrome (>= 0.0.0)
+  windows (1.34.6)
+    chef_handler (>= 0.0.0)

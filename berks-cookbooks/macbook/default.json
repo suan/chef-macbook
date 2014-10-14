@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "build-essential",
+    "homebrew",
+    "iterm2",
+    "osxzip",
+    "alfred",
+    "better_touch_tool",
+    "macapps::flashplayer",
+    "macapps::sococo",
+    "macapps::spotify",
+    "macapps::vagrant",
+    "macapps::virtualbox"
+  ]
+}
